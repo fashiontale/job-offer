@@ -10,15 +10,15 @@ export default class Calculator {
   }
 }
 
-export default class WeirdCalculator {
+export default class WeirdCalculator extends Calculator {
   constructor(base)
   {
     super(base);
   }
 
-  power(exponent)
+  power(weirdExponent)
   {
-    return super.power(2)*exponent;
+    return super.power(2) * weirdExponent;
   }
 }
 
