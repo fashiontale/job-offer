@@ -1,0 +1,10 @@
+body {
+  font-size: 12px;
+  margin: 0;
+  padding: 32px;
+}
+
+.post {
+  padding: 48px;
+  border-bottom: 1px solid black;
+}
